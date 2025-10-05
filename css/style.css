@@ -1,0 +1,65 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  width: 80%;
+  margin: auto;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: justify;
+  background-color: rgb(29, 30, 41);
+  color: white;
+}
+
+h2{
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+iframe, img{
+  width: 100%;
+  margin: auto;
+
+}
+
+h3{
+  font-weight: normal;
+  padding: 1rem;
+}
+
+h3::first-letter{
+  font-size: 6rem;
+  float:left;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  color: rgb(22, 197, 255);
+}
+
+section{
+  display: flex;
+  background-color: rgba(0, 166, 255, 0.257);
+  flex-direction: column;
+}
+
+input, button{
+padding: 5px;
+margin: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
